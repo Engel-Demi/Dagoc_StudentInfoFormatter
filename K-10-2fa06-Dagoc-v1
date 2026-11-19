@@ -1,0 +1,10 @@
+#Asks the user to input some data
+firstname = input("Input your first name/s:")
+lastname = input("Input your last name:")
+section = input("Enter your current section:")
+favsubject = input("Enter what is your favorite subject?")
+#prints out the results
+print("name:", firstname, lastname)
+print("Name Code:", firstname, lastname)
+print("Section:", section)
+print("Favorite Subject:", favsubject)

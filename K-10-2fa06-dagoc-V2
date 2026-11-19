@@ -1,0 +1,17 @@
+#asks user to input data and information
+firstname = input("Input your first name/s:")
+lastname = input("Input your last name:")
+section = input("Enter your current section:")
+favsubject = input("Enter what is your favorite subject?")
+#formats the data and info using string formatters
+favsubject = favsubject .strip() .title()
+fullname = f"{firstname} {lastname}" .strip() .title()
+namecode = fullname .strip() .upper()
+sectioncode = section .strip() .upper() 
+namecount = len(fullname)
+#prints out the results
+print("Fullname:", fullname)
+print("NAMECODE:", namecode)
+print("Section:", sectioncode)
+print("Favorite Subject:", favsubject)
+print(namecount)
